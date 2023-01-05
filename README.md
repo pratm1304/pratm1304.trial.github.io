@@ -16,10 +16,12 @@
         margin: 0;
         padding: 0;
         font-family: sans-serif;
+      
       }
 
       .body-container {
         background-image: linear-gradient(45deg, #ffa5c6, rgb(62, 197, 255));
+        overflow-x: hidden;
       }
 
       .container {
@@ -39,7 +41,7 @@
         float: left;
         margin: 15px;
         box-sizing: border-box;
-        overflow: hidden;
+        overflow-x: hidden;
         border-radius: 10px;
         transition: 1s;
       }
@@ -157,17 +159,7 @@
         font-style: italic;
       }
 
-      .rect {
-        position: relative;
-        height: 170px;
-        width: 520px;
-        margin: 50px;
-        margin-left: 550px;
-        background: #ffffff;
-        background-image: linear-gradient(white, pink);
-        text-align: center;
-        padding: 100px;
-      }
+      
 
       .box4 {
         position: relative;
@@ -181,7 +173,9 @@
         margin-left: 160px;
       }
 
-      .img {
+     
+
+      .img1 {
         background-position: center;
         display: block;
         width: 370px;
@@ -190,9 +184,25 @@
         transition: 1s;
       }
 
-      .img:hover {
+      .img1:hover {
         transform: scale(1.2);
       }
+
+      .img2 {
+        align-items: center;
+        margin-left: 60px;
+        width: 670px;
+        height: 360px;
+        transition: 1s;
+       
+      }
+
+      .img2:hover {
+        transform: scale(1.05);
+      }
+        
+      
+      
 
       .main {
         width: 100%;
@@ -201,17 +211,48 @@
         position: relative;
         cursor: pointer;
         margin-bottom: 20%;
+        margin-left: 230px;
+        
+      }
+
+      .main2 {
+        width: 100%;
+        min-height: 50px auto 100px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 20%;
+        margin-left: 490px;
+      }
+
+      .main3 {
+        width: 100%;
+        min-height: 50px auto 100px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 20%;
+        margin-left: 750px;
+      }
+
+      .main4 {
+        width: 100%;
+        min-height: 50px auto 100px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 20%;
+        margin-left: 1010px;
       }
 
       .service {
         background: white;
-        padding: 30px;
+        padding: 20px;
         border-radius: 10px;
         position: absolute;
         bottom: 0;
         box-shadow: 0 0 20px -15px black;
         z-index: 1;
-        margin-left: 20%;
         transition: 1s;
       }
 
@@ -228,8 +269,11 @@
         margin: -90px auto 0;
       }
 
-      .service.h2 {
+      .content4 {
+        text-align: center;
+        font-size: 12px;
       }
+    
     </style>
   </head>
 
@@ -277,37 +321,121 @@
 
     <div class="container2">
       <div class="box4">
-        <img src="new.png" class="img" />
+        <img src="new.png" class="img1" />
       </div>
-
-      <div class="rect">
-        <h2>rectangle</h2>
-      </div>
+      <img src="front.png" class="img2"/>
+      
     </div>
 
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    
     <div class="container3">
-      <div class="row">
-        <div class="colm">
-          <div class="main">
-            <div class="service">
-              <div class="service-logo">
-                <i class="fa-solid fa-phone fa-6x"></i>
-              </div>
+      
+      <div class="colm">
+        <div class="main">
+          <div class="service">
+            <div class="service-logo">
+            </br>
+              <center><i class="fa-solid fa-phone fa-5x"></i></center>
+            </div>
+            <div class="content4">
+              <br/>
               <h2>CALL US</h2>
+              <br/>
+              <h4>On toll free numbers:</h4>
               <p>
-                +12 78745893733 <br />
-                +12 746987846438 <br />
+                <br/>
+                +12 78745893733<br /><br />
+                +12 746987846438<br /><br />
                 +12 768834262984
               </p>
+              
             </div>
-
-            <div class="shadow-1"></div>
-            <div class="shadow-2"></div>
           </div>
         </div>
-        <div class="colm"></div>
-        <div class="colm"></div>
       </div>
+
+      <div class="colm">
+        <div class="main2">
+          <div class="service">
+            <div class="service-logo">
+            </br>
+              <center><i class="fa-solid fa-envelope fa-5x"></i></center>
+            </div>
+            <div class="content4">
+              <br/>
+              <h2>EMAIL US</h2>
+              <br/>
+              <h4>On email id:</h4>
+              <br />
+              <p>
+                travel24by7@gmail.com<br /><br />
+                travel24on7@gmail.com<br /><br />
+                travel24and7@gmail.com
+              </p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="colm">
+        <div class="main3">
+          <div class="service">
+            <div class="service-logo">
+            </br>
+              <center><i class="fa-solid fa-location-dot fa-5x"></i></center>
+            </div>
+            <div class="content4">
+              <br />
+              <h2>VISIT US</h2>
+              <br/>
+              <h4>At our office:</h4>
+              <br />
+              <p>
+                27/7 Travels<br />
+                Floor no. 30<br/>
+                Airiona skies<br />
+                Block no. 12<br />
+                Queens
+                UK
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="colm">
+        <div class="main4">
+          <div class="service">
+            <div class="service-logo">
+            </br>
+              <center><i class="fa-solid fa-heart fa-5x"></i></center>
+            </div>
+            <div class="content4">
+              <br />
+              <h2>FOLLOW US</h2>
+              <br/>
+              <h4>On handles:</h4>
+              <br />
+              <p>
+                <i class="fa-brands fa-instagram"></i> - @travel_24_7<br /><br />
+                <i class="fa-brands fa-twitter"></i> - @travel24bt7<br /><br />
+                <i class="fa-brands fa-youtube"></i> - Travel 24 by 7
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      
     </div>
+
   </body>
 </html>
