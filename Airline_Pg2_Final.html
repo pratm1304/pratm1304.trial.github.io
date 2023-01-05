@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline_Pg2</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        background-image: linear-gradient(45deg, #ffa5c6, rgb(62, 197, 255));
+
+        /* background: url('https://images6.alphacoders.com/408/408258.jpg'); */
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+
+    }
+
+
+    #btn_btn:hover {
+        border: 3px solid white;
+        overflow: hidden;
+        cursor: pointer;
+        transition: box-shadow 0.1s ease-in-out, border-color 0.1s ease-in-out;
+        box-shadow: 0 0 5px white,
+            0 0 20px white,
+            0 0 35px white,
+            0 0 50px white;
+    }
+
+
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 12px 9px;
+        background-color: #8ac0c5;
+        color: white;
+        background-image: linear-gradient(114deg, #df5487, rgb(19 142 195));
+        padding: 9px 4px;
+        border: 2px solid white;
+        border-radius: 22px;
+        font-size: 29px;
+        cursor: pointer;
+        width: 114px;
+        text-decoration: wavy;
+    }
+
+
+    /* for 1st  */
+
+    .left1 {
+        display: block;
+        border: 2px solid white;
+        position: absolute;
+        background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+        cursor: pointer;
+        width: 1159px;
+        height: 130px;
+        padding: 9px;
+        margin: 10px;
+        left: 87px;
+        top: 130px;
+        border-radius: 15px;
+    }
+
+    /* for 1st  */
+
+    .left2 {
+        display: block;
+        border: 2px solid white;
+        position: absolute;
+        background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+
+        width: 1159px;
+        height: 130px;
+        padding: 9px;
+        margin: 10px;
+        left: 87px;
+        top: 300px;
+        border-radius: 15px;
+    }
+
+    /* for 1st  */
+
+    .left3 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+
+        position: absolute;
+        width: 1159px;
+        height: 130px;
+        padding: 9px;
+        margin: 10px;
+        left: 87px;
+        top: 470px;
+        border-radius: 15px;
+    }
+
+    .left11 {
+        display: inline;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+
+        width: 550px;
+        height: 85px;
+        padding: 7px;
+        margin: 10px;
+        left: 290px;
+        top: 150px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .left22 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 550px;
+        height: 85px;
+        padding: 5px;
+        margin: 10px;
+        left: 290px;
+        top: 320px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .left33 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 550px;
+        height: 85px;
+        padding: 5px;
+        margin: 10px;
+        left: 290px;
+        top: 490px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .left111 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 250px;
+        height: 85px;
+        padding: 5px;
+        margin: 10px;
+        left: 900px;
+        top: 150px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .left222 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 250px;
+        height: 85px;
+        padding: 5px;
+        margin: 10px;
+        left: 900px;
+        top: 320px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .left333 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 250px;
+        height: 85px;
+        padding: 5px;
+        margin: 10px;
+        left: 900px;
+        top: 490px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    /* for 1st  */
+    .toph {
+        display: block;
+        /* border: 2px solid white; */
+        position: absolute;
+        width: 1159px;
+        height: 100px;
+        /* padding: 9px; */
+        /* margin: 10px; */
+        font-size: 54px;
+        left: 545px;
+        top: 34px;
+        /* border-radius: 15px; */
+        /* text-align: center; */
+    }
+
+    .img1 {
+        position: absolute;
+        left: 63px;
+        top: 101px;
+
+    }
+
+    .img2 {
+        position: absolute;
+        left: 140px;
+        top: 321px;
+
+    }
+
+    .img3 {
+        position: absolute;
+        left: 140px;
+        top: 491px;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 12px 9px;
+        background-color: #8ac0c5;
+        color: white;
+        background-image: linear-gradient(114deg, #df5487, rgb(19 142 195));
+        padding: 9px 4px;
+        border: 2px solid white;
+        border-radius: 22px;
+        font-size: 27px;
+        cursor: pointer;
+        text-decoration: wavy;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+
+        <form action="http://127.0.0.1:5500/Airline_Pg3.html">
+            <button id="btn_btn" class="left1"></button>
+            <button class="left11">04:20 -----2h 55m -----07:55</button>
+            <button class="left111">$159</button>
+        </form>
+
+
+        <!-- 2nd img -->
+        <form action="http://127.0.0.1:5500/Airline_Pg3.html">
+            <button id="btn_btn" class="left2"></button>
+            <button class="left22">13:55 -----2h 50m -----16:45</button>
+            <button class="left222">$102</button>
+
+        </form>
+
+
+
+        <!-- 3rd img -->
+        <form action="http://127.0.0.1:5500/Airline_Pg3.html">
+            <button id="btn_btn" class="left3"></button>
+            <button class="left33">19:40 -----2h 50m -----22:30</button>
+            <button class="left333">$127</button>
+
+        </form>
+
+
+
+
+        <div class="toph">
+            Select Flight
+        </div>
+
+        <div class="img1">
+            <img src="https://th.bing.com/th/id/R.b307b1333fe37fae6d36527cc562d2f4?rik=z0O%2fHeMqWVJceQ&riu=http%3a%2f%2flogok.org%2fwp-content%2fuploads%2f2015%2f03%2fQatar-Airways-logo.png&ehk=7qRQz61L736SjjfuHDQr96LONmIgdjXK%2fOVvbaRbVWU%3d&risl=&pid=ImgRaw&r=0"
+                height="200px" width="280px" style="border-radius: 15px" alt="">
+
+            <!-- <button class="btn_left2" >Indigo</button> -->
+        </div>
+        <div class="img2">
+            <img src="https://th.bing.com/th/id/OIP.H6FQD2PyW84fhmmSnSUD5QAAAA?pid=ImgDet&w=300&h=300&rs=1"
+                height="100px" width="100px" style="border-radius: 15px" alt="">
+
+            <!-- <button class="btn_left2" >Indigo</button> -->
+        </div>
+        <div class="img3">
+            <img src="https://th.bing.com/th/id/R.5f9be5876eda5d373d7f91a8faf5e659?rik=AMH8TOMKrK2Y6w&riu=http%3a%2f%2flofrev.net%2fwp-content%2fphotos%2f2017%2f03%2fair_india_logo_download.jpg&ehk=zFeqOgOta8nERxJ4botm2uV5IJp4BKKlHJic8HtkLMo%3d&risl=&pid=ImgRaw&r=0"
+                height="100px" width="100px" style="border-radius: 15px" alt="">
+        </div>
+
+        <div>
+            <form action="http://127.0.0.1:5500/pg1.html">
+                <button id="btn_btn" class="btn">Back</button>
+
+            </form>
+
+
+
+        </div>
+
+
+
+</body>
+
+</html>
