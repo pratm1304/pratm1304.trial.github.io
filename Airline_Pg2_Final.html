@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline_Pg2</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        background-image: linear-gradient(45deg, #ffa5c6, rgb(62, 197, 255));
+
+        /* background: url('https://images6.alphacoders.com/408/408258.jpg'); */
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+
+    }
+
+
+    #btn_btn:hover {
+        border: 3px solid white;
+        overflow: hidden;
+        cursor: pointer;
+        transition: box-shadow 0.1s ease-in-out, border-color 0.1s ease-in-out;
+        box-shadow: 0 0 5px white,
+            0 0 20px white,
+            0 0 35px white,
+            0 0 50px white;
+    }
+
+
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 12px 9px;
+        background-color: #8ac0c5;
+        color: white;
+        background-image: linear-gradient(114deg, #df5487, rgb(19 142 195));
+        padding: 9px 4px;
+        border: 2px solid white;
+        border-radius: 22px;
+        font-size: 29px;
+        cursor: pointer;
+        width: 114px;
+        text-decoration: wavy;
+    }
+
+
+    /* for 1st  */
+
+    .left1 {
+    display: block;
+    border: 2px solid white;
+    position: absolute;
+    background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+    cursor: pointer;
+    width: 1143px;
+    height: 80px;
+    padding: 9px;
+    margin: 10px;
+    left: 134px;
+    top: 89px;
+    border-radius: 15px;
+}
+
+    /* for 1st  */
+
+    .left2 {
+        display: block;
+        border: 2px solid white;
+        position: absolute;
+        background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+
+        width: 1143px;
+    height: 80px;
+        padding: 9px;
+        margin: 10px;
+        left: 134px;        top: 186px;
+        border-radius: 15px;
+    }
+
+    /* for 1st  */
+
+    .left3 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+
+        position: absolute;
+        width: 1143px;
+    height: 80px;
+        padding: 9px;
+        margin: 10px;
+        left: 134px;        top: 283px;
+        border-radius: 15px;
+    }
+    .left4 {
+    display: block;
+    border: 2px solid white;
+    position: absolute;
+    background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+    cursor: pointer;
+    width: 1143px;
+    height: 80px;
+    padding: 9px;
+    margin: 10px;
+    left: 134px;
+    top: 380px;
+    border-radius: 15px;
+}.left5 {
+    display: block;
+    border: 2px solid white;
+    position: absolute;
+    background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+    cursor: pointer;
+    width: 1143px;
+    height: 80px;
+    padding: 9px;
+    margin: 10px;
+    left: 134px;
+    top: 477px;
+    border-radius: 15px;
+}
+
+    .left11 {
+    display: inline;
+    border: 2px solid white;
+    background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    position: absolute;
+    width: 560px;
+    height: 63px;
+    padding: 7px;
+    margin: 10px;
+    left: 360px;
+    top: 97px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 37px;
+}
+
+.left22 {
+    display: block;
+    border: 2px solid white;
+    background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    position: absolute;
+    width: 560px;
+    height: 63px;
+    padding: 5px;
+    margin: 10px;
+    left: 360px;
+    top: 194px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 37px;
+}
+
+    .left33 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 560px;
+    height: 63px;
+        padding: 5px;
+        margin: 10px;
+        left: 360px;
+    top: 291px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 37px;
+    }
+    
+    .left44 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 560px;
+    height: 63px;
+        padding: 5px;
+        margin: 10px;
+        left: 360px;
+    top: 388px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 37px;
+    }
+    
+    .left55 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 560px;
+    height: 63px;
+        padding: 5px;
+        margin: 10px;
+        left: 360px;
+    top: 485px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 37px;
+    }
+
+    .left111 {
+    display: block;
+    border: 2px solid white;
+    background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    position: absolute;
+    width: 200px;
+    height: 63px;
+    font-size: 37px;
+    left: 990px;
+    top: 97px;
+    padding: 5px;
+    margin: 10px;
+    
+    border-radius: 15px;
+    text-align: center;
+}
+
+    .left222 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 200px;
+    height: 63px;
+        padding: 5px;
+        margin: 10px;
+        left: 990px;
+        top: 194px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 37px;
+    }
+
+    .left333 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 200px;
+    height: 63px;
+        padding: 5px;
+        margin: 10px;
+        left: 990px;
+        top: 291px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 37px;
+    }
+    
+    .left444 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 200px;
+    height: 63px;
+        padding: 5px;
+        margin: 10px;
+        left: 990px;
+        top: 388px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 37px;
+    }
+    
+    .left555 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        position: absolute;
+        width: 200px;
+    height: 63px;
+        padding: 5px;
+        margin: 10px;
+        left: 990px;
+        top: 485px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 37px;
+    }
+
+    /* for 1st  */
+    .toph {
+    display: block;
+    position: absolute;
+    width: 1159px;
+    height: 100px;
+    font-size: 42px;
+    left: 545px;
+    top: 14px;
+    
+}
+
+    .img1 {
+        position: absolute;
+        left: 160px;
+        top: 67px;
+
+    }
+
+    .img2 {
+    position: absolute;
+    left: 225px;
+    top: 200px;
+}
+
+    .img3 {
+        position: absolute;
+        left: 225px;
+        top: 298px;
+
+    }
+    
+    .img4 {
+        position: absolute;
+        left: 225px;
+        top: 396px;
+
+    }
+    .img5 {
+        position: absolute;
+        left: 225px;
+        top: 494px;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 12px 9px;
+        background-color: #8ac0c5;
+        color: white;
+        background-image: linear-gradient(114deg, #df5487, rgb(19 142 195));
+        padding: 9px 4px;
+        border: 2px solid white;
+        border-radius: 22px;
+        font-size: 27px;
+        cursor: pointer;
+        text-decoration: wavy;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+
+        <form action="http://127.0.0.1:5500/Airline_Pg3.html">
+            <button id="btn_btn" class="left1"></button>
+            <button class="left11">04:20 -----2h 55m -----07:55</button>
+            <button class="left111">$169</button>
+        </form>
+
+
+        <!-- 2nd img -->
+        <form action="http://127.0.0.1:5500/Airline_Pg3.html">
+            <button id="btn_btn" class="left2"></button>
+            <button class="left22">13:55 -----2h 50m -----16:45</button>
+            <button class="left222">$159</button>
+
+        </form>
+
+
+
+        <!-- 3rd img -->
+        <form action="http://127.0.0.1:5500/Airline_Pg3.html">
+            <button id="btn_btn" class="left3"></button>
+            <button class="left33">17:15 -----2h 50m -----20:05</button>
+            <button class="left333">$102</button>
+
+        </form>
+        
+        <form action="http://127.0.0.1:5500/Airline_Pg3.html">
+            <button id="btn_btn" class="left4"></button>
+            <button class="left44">19:40 -----2h 50m -----22:30</button>
+            <button class="left444">$119</button>
+
+        </form>
+        
+        <form action="http://127.0.0.1:5500/Airline_Pg3.html">
+            <button id="btn_btn" class="left5"></button>
+            <button class="left55">22:20 -----2h 50m -----01:30</button>
+            <button class="left555">$127</button>
+
+        </form>
+
+
+
+
+        <div class="toph">
+            Select Flight
+        </div>
+
+        <div class="img1">
+            <img src="https://th.bing.com/th/id/R.b307b1333fe37fae6d36527cc562d2f4?rik=z0O%2fHeMqWVJceQ&riu=http%3a%2f%2flogok.org%2fwp-content%2fuploads%2f2015%2f03%2fQatar-Airways-logo.png&ehk=7qRQz61L736SjjfuHDQr96LONmIgdjXK%2fOVvbaRbVWU%3d&risl=&pid=ImgRaw&r=0"
+                height="140px" width="220px" style="border-radius: 15px" alt="">
+
+            <!-- <button class="btn_left2" >Indigo</button> -->
+        </div>
+        <div class="img2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9w9OHHJ7X44fKViKMKtPXMIU0RlVv5FgPrdd5mcRWOQ&s"
+                height="70px" width="70px" style="border-radius: 15px" alt="">
+
+            <!-- <button class="btn_left2" >Indigo</button> -->
+        </div>
+        <div class="img3">
+            <img src="https://i0.wp.com/logotaglines.com/wp-content/uploads/2022/01/American-Airlines-Logo-Tagline-Slogan-Owner-Motto.jpg?fit=640%2C640&ssl=1"
+                height="68px" width="68px" style="border-radius: 15px" alt="">
+        </div>
+        
+        <div class="img4">
+            <img src="https://vistaramagazine.com/wp-content/uploads/2021/08/1200px-Vistara_logo.svg_.png"
+                height="68px" width="70px" style="border-radius: 15px" alt="">
+        </div>
+        
+        <div class="img5">
+            <img src="https://i.pinimg.com/originals/24/8f/52/248f520a4e57e6472bd61e8f152d4a00.jpg"
+                height="65px" width="70px" style="border-radius: 15px" alt="">
+        </div>
+
+        <div>
+            <form action="http://127.0.0.1:5500/pg1.html">
+                <button id="btn_btn" class="btn">Back</button>
+
+            </form>
+
+
+
+        </div>
+
+
+
+</body>
+
+</html>
