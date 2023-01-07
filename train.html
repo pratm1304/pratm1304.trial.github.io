@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train1</title>
+</head>
+
+<link href="" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+
+        background-image: linear-gradient(45deg, #FFA5C6, rgb(62, 197, 255));
+    }
+
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 41px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 100px;
+        /* filter: invert(100%); */
+        border: 2px solid #8b7e7e;
+        border-radius: 29px;
+        margin-left: 63px;
+        margin-top: 9px;
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: left;
+
+    }
+
+    .mid {
+        position: absolute;
+        background-image: linear-gradient(287deg, #e384a7, rgb(51 122 153));
+        left: 400px;
+        display: block;
+        width: 750px;
+        margin: 29px auto;
+        border: 2px solid white;
+        border-radius: 10px;
+        /* border: 2px solid green; */
+    }
+
+
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 3px 24px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(218, 201, 201);
+
+    }
+
+    .btn {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 12px 9px;
+        background-color: #8ac0c5;
+        color: white;
+        background-image: linear-gradient(114deg, #df5487, rgb(19 142 195));
+        padding: 9px 4px;
+        border: 2px solid white;
+        border-radius: 22px;
+        font-size: 27px;
+        cursor: pointer;
+        text-decoration: wavy;
+        position: absolute;
+
+
+        left: 43px;
+        top: 300px;
+    }
+
+
+    .btn:hover {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .container {
+        position: absolute;
+        top: 100px;
+        background-image: linear-gradient(249deg, #e1407b, rgb(41 139 181));
+        border: 2px solid white;
+        margin: 100px 40px;
+        padding: 79px;
+        padding-top: 0px;
+        width: 23%;
+        height: 313px;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        display: block;
+        width: 371px;
+        padding: 4px;
+        border: 2px solid #9acbd9;
+        margin: 8px -38px;
+        top: 203px;
+        font-size: 25px;
+        left: 35px;
+        position: absolute;
+        border-radius: 17px;
+        border: solid 1px #6eb4d3;
+        outline: 0;
+        background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #73b7b7), to(#FFFFFF));
+        background: -moz-linear-gradient(top, #FFFFFF, #E78F8D 1px, #FFFFFF 25px);
+        box-shadow: rgb(0 0 0 / 10%) 0px 0px 8px;
+        -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+        -webkit-box-shadow: rgb(0 0 0 / 10%) 0px 0px 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+        height: 60px;
+        left: 120px;
+    }
+
+    .anim {
+        position: absolute;
+        top: 50px;
+        left: 700px;
+        display: block;
+        width: 500px;
+        height: 400px;
+        border-radius: 10px;
+
+    }
+
+    #btn_btn:hover {
+        border: 3px solid rgb(255, 255, 255);
+        overflow: hidden;
+        cursor: pointer;
+        transition: box-shadow 0.1s ease-in-out, border-color 0.1s ease-in-out;
+        box-shadow: 0 0 5px white,
+            0 0 20px white,
+            0 0 35px white,
+            0 0 50px white;
+    }
+
+    #findfli_pos {
+        position: absolute;
+        left: 45px;
+        top: 400px;
+
+
+
+    }
+
+
+
+    .selcls {
+        padding: 5px;
+        border: solid 1px #6eb4d3;
+        outline: 0;
+        background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #73b7b7), to(#FFFFFF));
+        background: -moz-linear-gradient(top, #FFFFFF, #E78F8D 1px, #FFFFFF 25px);
+        box-shadow: rgb(0 0 0 / 10%) 0px 0px 8px;
+        -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+        -webkit-box-shadow: rgb(0 0 0 / 10%) 0px 0px 8px;
+        border-radius: 13px;
+        position: absolute;
+        left: 43px;
+        top: 100px;
+        width: 381px;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+
+    }
+
+    .selcls2 {
+        padding: 5px;
+        border: solid 1px #6eb4d3;
+        outline: 0;
+        background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #73b7b7), to(#FFFFFF));
+        background: -moz-linear-gradient(top, #FFFFFF, #E78F8D 1px, #FFFFFF 25px);
+        box-shadow: rgb(0 0 0 / 10%) 0px 0px 8px;
+        -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+        -webkit-box-shadow: rgb(0 0 0 / 10%) 0px 0px 8px;
+        border-radius: 13px;
+        position: absolute;
+        left: 43px;
+        top: 171px;
+        width: 381px;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    #datee {
+        position: absolute;
+        left: 43px;
+        top: 30px;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="https://www.railway-technology.com/wp-content/uploads/sites/13/2022/04/uk-train.jpg"
+                alt="">
+
+
+            <div>Train Tickets</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">My Bookings</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h1>Book Now</h1>
+        
+            <form action="http://127.0.0.1:5500/train2.html">
+
+
+
+
+
+            <div class="form-group">
+                <!-- <input type="text" name="" placeholder="From: ">  -->
+
+                <div class="form-group">
+                    <select name="selphp" class="selcls">
+                        <option value="From" selected>From</option>
+                        <option value="M">London </option>
+                        <option value="F">Birmingham </option>
+                        <option value="F">Bristol </option>
+                        <option value="F">Manchester </option>
+                        <option value="F">Liverpool </option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <div class="form-group">
+                        <select name="selphp" class="selcls2">
+                            <option value="From" selected>To</option>
+                            <option value="M">London </option>
+                            <option value="F">Birmingham</option>
+                            <option value="F">Bristol</option>
+                            <option value="F">Manchester</option>
+                            <option value="F">Liverpool</option>
+
+                        </select>
+
+                    </div>
+                </div>
+
+
+
+
+                <div id="datee" class="form-group">
+                    <input type="date" name="Mydate" value="">
+                </div>
+
+
+                <div>
+                    <button id="btn_btn" class="btn">Find Trains</button>
+
+
+                </div>
+
+                <div class="anim">
+                    <img src="https://i0.wp.com/spice-spotlight.scot/wp-content/uploads/2020/08/HST.png?w=1024&ssl=1"
+                        height="300px" width="450px" style="border-radius: 20px" alt="">
+
+                </div>
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>

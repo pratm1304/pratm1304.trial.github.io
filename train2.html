@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trains2</title>
+</head>
+<link href="" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        background-image: linear-gradient(45deg, #ffa5c6, rgb(62, 197, 255));
+
+        
+        background-size: cover;
+   
+
+    }
+
+
+    #btn_btn:hover {
+        border: 3px solid white;
+        overflow: hidden;
+        cursor: pointer;
+        transition: box-shadow 0.1s ease-in-out, border-color 0.1s ease-in-out;
+        box-shadow: 0 0 5px white,
+            0 0 20px white,
+            0 0 35px white,
+            0 0 50px white;
+    }
+
+
+
+    .btn {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 12px 9px;
+        background-color: #8ac0c5;
+        color: white;
+        background-image: linear-gradient(114deg, #df5487, rgb(19 142 195));
+        padding: 9px 4px;
+        border: 2px solid white;
+        border-radius: 22px;
+        font-size: 29px;
+        cursor: pointer;
+        width: 114px;
+        text-decoration: wavy;
+    }
+
+
+    /* for 1st  */
+
+    .left1 {
+        display: block;
+        border: 2px solid white;
+        position: absolute;
+        background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+        cursor: pointer;
+        width: 1159px;
+        height: 130px;
+        padding: 9px;
+        margin: 10px;
+        left: 87px;
+        top: 130px;
+        border-radius: 15px;
+    }
+
+    /* for 1st  */
+
+    .left2 {
+        display: block;
+        border: 2px solid white;
+        position: absolute;
+        background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+
+        width: 1159px;
+        height: 130px;
+        padding: 9px;
+        margin: 10px;
+        left: 87px;
+        top: 300px;
+        border-radius: 15px;
+    }
+
+    /* for 1st  */
+
+    .left3 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(195deg, #dbaabb, rgb(131 191 217));
+
+        position: absolute;
+        width: 1159px;
+        height: 130px;
+        padding: 9px;
+        margin: 10px;
+        left: 87px;
+        top: 470px;
+        border-radius: 15px;
+    }
+
+    .left11 {
+        display: inline;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        position: absolute;
+
+        width: 550px;
+        height: 85px;
+        padding: 7px;
+        margin: 10px;
+        left: 290px;
+        top: 150px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .left22 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        position: absolute;
+        width: 550px;
+        height: 85px;
+        padding: 5px;
+        margin: 10px;
+        left: 290px;
+        top: 320px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .left33 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        position: absolute;
+        width: 550px;
+        height: 85px;
+        padding: 5px;
+        margin: 10px;
+        left: 290px;
+        top: 490px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .left111 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        position: absolute;
+        width: 250px;
+        height: 85px;
+        padding: 5px;
+        margin: 10px;
+        left: 900px;
+        top: 150px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .left222 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        position: absolute;
+        width: 250px;
+        height: 85px;
+        padding: 5px;
+        margin: 10px;
+        left: 900px;
+        top: 320px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .left333 {
+        display: block;
+        border: 2px solid white;
+        background-image: linear-gradient(45deg, #c11d59, rgb(18 170 235));
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        position: absolute;
+        width: 250px;
+        height: 85px;
+        padding: 5px;
+        margin: 10px;
+        left: 900px;
+        top: 490px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    /* for 1st  */
+    .toph {
+        display: block;
+        /* border: 2px solid white; */
+        position: absolute;
+        width: 1159px;
+        height: 100px;
+        /* padding: 9px; */
+        /* margin: 10px; */
+        font-size: 54px;
+        left: 545px;
+        top: 34px;
+        /* border-radius: 15px; */
+        /* text-align: center; */
+    }
+
+    .img1 {
+        position: absolute;
+        left: 63px;
+        top: 101px;
+
+    }
+
+    .img2 {
+        position: absolute;
+        left: 140px;
+        top: 321px;
+
+    }
+
+    .img3 {
+        position: absolute;
+        left: 140px;
+        top: 491px;
+
+    }
+
+    .btn {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 12px 9px;
+        background-color: #8ac0c5;
+        color: white;
+        background-image: linear-gradient(114deg, #df5487, rgb(19 142 195));
+        padding: 9px 4px;
+        border: 2px solid white;
+        border-radius: 22px;
+        font-size: 27px;
+        cursor: pointer;
+        text-decoration: wavy;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+
+        <form action="">
+            <button id="btn_btn" class="left1"></button>
+            <button class="left11">10:00 --4h 45m --14:45</button>
+            <button class="left111">$75</button>
+        </form>
+
+
+        <!-- 2nd img -->
+        <form action="">
+            <button id="btn_btn" class="left2"></button>
+            <button class="left22">07:30 --9h 35m --17:05</button>
+            <button class="left222">$100</button>
+
+        </form>
+
+
+
+        <!-- 3rd img -->
+        <form action="">
+            <button id="btn_btn" class="left3"></button>
+            <button class="left33">20:00 --12h 40m --8:40</button>
+            <button class="left333">$140</button>
+
+        </form>
+
+
+
+
+        <div class="toph">
+            Select Train
+        </div>
+
+        <div class="img1">
+            <img src="https://www.doncasterroversfc.co.uk/siteassets/content/1.news/1718/00.june-2018/news-1819-lner.jpg/Large"
+                height="100px" width="100px" style="border-radius: 15px" alt="">
+
+            <!-- <button class="btn_left2" >Indigo</button> -->
+        </div>
+        <div class="img2">
+            <img src="https://scontent.fnag2-1.fna.fbcdn.net/v/t39.30808-6/250808035_126921736391748_784494390768298946_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=no0Zj2PCsz4AX9BgTMO&_nc_ht=scontent.fnag2-1.fna&oh=00_AfDNlASDl26L9QbvQYNbllfbmY0ykwu_IWp4GRTmvOdpZQ&oe=63BDF70E"
+                height="100px" width="100px" style="border-radius: 15px" alt="">
+
+            <!-- <button class="btn_left2" >Indigo</button> -->
+        </div>
+        <div class="img3">
+            <img src="https://cdn.prgloo.com/media/0cb5e39671934f97914dc84e25e02feb.jpg?width=1135&height=960"
+                height="100px" width="100px" style="border-radius: 15px" alt="">
+        </div>
+
+        <div>
+            <form action="http://127.0.0.1:5500/train.html">
+                <button id="btn_btn" class="btn">Back</button>
+
+            </form>
+
+
+
+        </div>
+
+
+
+</body>
+
+</html>
