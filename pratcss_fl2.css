@@ -52,7 +52,7 @@ body {
     padding: 9px;
     margin: 10px;
     left: 134px;
-    top: 89px;
+    top: 119px;
     border-radius: 15px;
 }
 
@@ -69,7 +69,7 @@ body {
     padding: 9px;
     margin: 10px;
     left: 134px;
-    top: 186px;
+    top: 216px;
     border-radius: 15px;
 }
 
@@ -86,7 +86,7 @@ body {
     padding: 9px;
     margin: 10px;
     left: 134px;
-    top: 283px;
+    top: 313px;
     border-radius: 15px;
 }
 
@@ -101,7 +101,7 @@ body {
     padding: 9px;
     margin: 10px;
     left: 134px;
-    top: 380px;
+    top: 410px;
     border-radius: 15px;
 }
 
@@ -116,7 +116,7 @@ body {
     padding: 9px;
     margin: 10px;
     left: 134px;
-    top: 477px;
+    top: 507px;
     border-radius: 15px;
 }
 
@@ -132,7 +132,7 @@ body {
     padding: 7px;
     margin: 10px;
     left: 360px;
-    top: 97px;
+    top: 127px;
     border-radius: 15px;
     text-align: center;
     font-size: 37px;
@@ -150,7 +150,7 @@ body {
     padding: 5px;
     margin: 10px;
     left: 360px;
-    top: 194px;
+    top: 224px;
     border-radius: 15px;
     text-align: center;
     font-size: 37px;
@@ -168,7 +168,7 @@ body {
     padding: 5px;
     margin: 10px;
     left: 360px;
-    top: 291px;
+    top: 321px;
     border-radius: 15px;
     text-align: center;
     font-size: 37px;
@@ -186,7 +186,7 @@ body {
     padding: 5px;
     margin: 10px;
     left: 360px;
-    top: 388px;
+    top: 418px;
     border-radius: 15px;
     text-align: center;
     font-size: 37px;
@@ -204,7 +204,7 @@ body {
     padding: 5px;
     margin: 10px;
     left: 360px;
-    top: 485px;
+    top: 515px;
     border-radius: 15px;
     text-align: center;
     font-size: 37px;
@@ -221,7 +221,7 @@ body {
     height: 63px;
     font-size: 37px;
     left: 990px;
-    top: 97px;
+    top: 127px;
     padding: 5px;
     margin: 10px;
 
@@ -241,7 +241,7 @@ body {
     padding: 5px;
     margin: 10px;
     left: 990px;
-    top: 194px;
+    top: 224px;
     border-radius: 15px;
     text-align: center;
     font-size: 37px;
@@ -259,7 +259,7 @@ body {
     padding: 5px;
     margin: 10px;
     left: 990px;
-    top: 291px;
+    top: 321px;
     border-radius: 15px;
     text-align: center;
     font-size: 37px;
@@ -277,7 +277,7 @@ body {
     padding: 5px;
     margin: 10px;
     left: 990px;
-    top: 388px;
+    top: 418px;
     border-radius: 15px;
     text-align: center;
     font-size: 37px;
@@ -295,7 +295,7 @@ body {
     padding: 5px;
     margin: 10px;
     left: 990px;
-    top: 485px;
+    top: 515px;
     border-radius: 15px;
     text-align: center;
     font-size: 37px;
@@ -316,34 +316,34 @@ body {
 .img1 {
     position: absolute;
     left: 160px;
-    top: 67px;
+    top: 97px;
 
 }
 
 .img2 {
     position: absolute;
     left: 225px;
-    top: 200px;
+    top: 230px;
 }
 
 .img3 {
     position: absolute;
     left: 225px;
-    top: 298px;
+    top: 328px;
 
 }
 
 .img4 {
     position: absolute;
     left: 225px;
-    top: 396px;
+    top: 426px;
 
 }
 
 .img5 {
     position: absolute;
     left: 225px;
-    top: 494px;
+    top: 524px;
 
 }
 
